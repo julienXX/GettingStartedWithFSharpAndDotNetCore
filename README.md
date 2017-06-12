@@ -6,7 +6,8 @@ I created this repo to document how I did some basic tasks.
 ## Implemented Tasks
 
 - [x] ParsingJsonFromHttpCall: Making an HTTP call to an API and parsing the JSON response
-- [ ] UsingPostgres: Storing and retrieving data from PostgreSQL
+- [x] ConnectingToPostgres: Retrieving data from PostgreSQL
+- [ ] UsingPostgres: Storing data in PostgreSQL
 - [ ] UsingRabbitMQ: Sending and consuming messages to and from RabbitMQ
 - [ ] UsingRedis: Storing and retrieving data from Redis
 - [ ] ?
