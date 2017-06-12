@@ -45,5 +45,6 @@ let main argv =
                 | _ ->
                     printfn "Found %d comments" <| Seq.length comments
                     printfn "Last comment: %A" <| Seq.head comments
+                    connection.Close()
 
             0 // return an integer exit code
